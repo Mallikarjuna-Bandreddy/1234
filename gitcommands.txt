@@ -1,0 +1,49 @@
+1.Pwd-present working directory(folder) display the current folder
+2.Ls-list all files and folders in the current directory
+     Help-provides documentation on commands
+3.Cd Desktop/
+    a. Cd subfoldername-navigate to sub folder
+    b. Cd    :navigate to home
+    c. Cd -  : navigate to previous location
+    d. Cd .. : navigate to parent folder
+    e. Cd ../.. : navigate to parent of parent folder
+4. Ctrl+l- clear screen
+5. Mkdir file name(make a file )
+6. Rmdir  file name(removes empty folders
+7. Touch test.text( to create a file)
+8. Rm -rf file name (to remove folders  containing files)
+9. Echo data in file1 >> file .txt (in file it creates data in file 1 matter)
+10.Cat file.txt
+11.Touch file{1..10}.txt (creates 10 files)
+12.Echo {1..10} ( creates 10 num )
+13.Echo > file.txt (to delete data from the file)
+14.Ls -l (we can see the memory taken by the file)
+15.Cat file.txt || more
+16.Rm *.txt
+17.Rm file {6..10}.txt
+18.Cat filee txt  > file.txt
+19.Mv old file name.txt  new .txt ( to rename the file )
+20.Cp file.txt  
+Git version control
+Initiate 
+21.git init (initialise )
+22.git status
+23.git add file.txt
+24.Configure git(git config user.name  “hari”) (git config user.email malli@gmail.com)
+25.git commit -m "version 1"
+26.git push origin master
+
+
+Three stages
+Un tracked
+Staging area (tracked)(git add file name -to add files)
+Commit (versions or snapshot)
+Checking the status of the reprojectory
+Git status
+Git log
+Git --version (to know the version)
+Git clone url link of repository from git hub 
+Git commit -m”adding “
+Git config --list(to see the details like username , email)
+Git push origin master
+Git add --a
